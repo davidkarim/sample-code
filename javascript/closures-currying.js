@@ -1,5 +1,5 @@
 // Currying Example using multiplication function
-// Curring is a technique in functional programming where a function with multiple arguments
+// Currying is a technique in functional programming where a function with multiple arguments
 // is transformed into a sequence of functions each taking a single argument.
 function multiply(a) {
   return function(b) {

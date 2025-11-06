@@ -1,5 +1,6 @@
 // Before ES6 Modules: Using Closures for Data Privacy
 // This pattern uses an IIFE (Immediately Invoked Function Expression) to create a module-like structure.
+// This allows for creation of public and private methods and variables, simulating module encapsulation before ES6 modules were introduced.
 
 const BankAccount = (function() {
   let balance = 0; // Private variable
