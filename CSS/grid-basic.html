@@ -1,0 +1,35 @@
+<!-- Basic example of CSS demonstrating grid layout -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Basic Example</title>
+    <style>
+        .grid-container {
+            display: grid;
+            /* grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+            /* grid-template-columns: 1fr 2fr 1fr; /* First and third columns take 1 part, second column takes 2 parts */
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+            gap: 10px;
+            padding: 10px;
+        }
+        .grid-item {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+    </div>
+</body>
+</html>
