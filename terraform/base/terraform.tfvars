@@ -1,0 +1,7 @@
+project_name = "first-project"
+aws_region = "us-east-1"
+vpc_cidr = "10.1.0.0/16"
+subnet_public_a_cidr = "10.1.1.0/24"
+subnet_public_b_cidr = "10.1.2.0/24"
+subnet_private_a_cidr = "10.1.3.0/24"
+subnet_private_b_cidr = "10.1.4.0/24"
